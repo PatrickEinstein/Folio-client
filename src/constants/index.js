@@ -50,11 +50,27 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Mobile Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "React",
+    icon: creator,
+  },
+  {
+    title: "Material UI",
+    icon: creator,
+  },
+  {
+    title: "Node js",
+    icon: creator,
+  },
+  {
+    title: "Express",
+    icon: creator,
+  },
+  {
+    title: "Mongo DB",
     icon: creator,
   },
 ];
