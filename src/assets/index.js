@@ -7,7 +7,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import express from "./express.png";
+import mui from "./mui.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -26,12 +27,26 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import cyclo from "./company/cyclo.jpeg";
+import perszi from "./company/perzi.png";
+import octave from "./company/octave.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import mernadmin from "./worksdone/mernadmin.png";
+import expadmindash from "./worksdone/expadmindash.png";
+import erpclient from "./worksdone/erpclient.png";
 export {
+  erpclient,
+  mernadmin,
+  expadmindash,
+  cyclo,
+  perszi,
+  octave,
+  express,
+  mui,
   pat,
   logo,
   backend,
