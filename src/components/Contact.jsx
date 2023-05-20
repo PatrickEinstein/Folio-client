@@ -18,7 +18,8 @@ const Contact = () => {
   const Submit = async (e) => {
     e.preventDefault();
     try {
-      const submit = await fetch("http://localhost:5000/", {
+      // const submit = await fetch("http://localhost:5000/", {
+      const submit = await fetch("https://blush-eel-tie.cyclic.app/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
