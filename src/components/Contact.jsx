@@ -19,15 +19,20 @@ const Contact = () => {
     e.preventDefault();
     try {
       // const submit = await fetch("http://localhost:5000/", {
-      const submit = await fetch("https://blush-eel-tie.cyclic.app/", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name: name,
-          email: email,
-          message: message,
-        }),
-      });
+      const submit = await fetch(
+        "https://vote-verse-server-production-6153.up.railway.app/folio",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name: name,
+            email: email,
+            message: message,
+          }),
+        }
+      );
 
       const submitted = await submit.json();
       console.log(submitted);

@@ -38,7 +38,9 @@ import tripguide from "./tripguide.png";
 import mernadmin from "./worksdone/mernadmin.png";
 import expadmindash from "./worksdone/expadmindash.png";
 import erpclient from "./worksdone/erpclient.png";
+import retropay from "./worksdone/retropay.png";
 export {
+  retropay,
   erpclient,
   mernadmin,
   expadmindash,

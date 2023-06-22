@@ -1,4 +1,5 @@
 import {
+  retropay,
   mobile,
   backend,
   creator,
@@ -31,6 +32,7 @@ import {
   mernadmin,
   expadmindash,
   erpclient,
+  retropay,
 } from "../assets";
 
 export const navLinks = [
@@ -224,44 +226,81 @@ const projects = [
   {
     name: "MERNstack Admin Dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "material ui",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "nodejs",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "express",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "redux",
-          color: "pink-text-gradient",
-        },
-      ],
+      "Web-based platform that allows complex admin data analytics geo-location mapping and data visualizations",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material ui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
     image: mernadmin,
     source_code_link: "https://github.com/PatrickEinstein/FULLADMIN",
   },
   {
+    name: "Retro Pay investment",
+    description:
+      "Web-based platform that allows users Invest funds and admins to approve investments.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material ui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: retropay,
+    source_code_link: "https://github.com/PatrickEinstein",
+  },
+  {
     name: "Fullstack admin Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables th admin to see the records of the users who have taken the export readiness test.",
     tags: [
       {
         name: "react",
@@ -298,37 +337,37 @@ const projects = [
   {
     name: "Export Readiness Client",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "material ui",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "nodejs",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "express",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "redux",
-          color: "pink-text-gradient",
-        },
-      ],
+      "A Computer based test app that allows users to take the export business readiness assessment, they see their results immediately and get a copy in their email in pdf as well.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material ui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
     image: erpclient,
     source_code_link: "https://github.com/",
   },
@@ -336,36 +375,36 @@ const projects = [
     name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "material ui",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "nodejs",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "express",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "redux",
-          color: "pink-text-gradient",
-        },
-      ],
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material ui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
     image: tripguide,
     source_code_link: "https://github.com/",
   },
@@ -373,36 +412,36 @@ const projects = [
     name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "material ui",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "nodejs",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "express",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "redux",
-          color: "pink-text-gradient",
-        },
-      ],
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material ui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
     image: tripguide,
     source_code_link: "https://github.com/",
   },
@@ -410,36 +449,36 @@ const projects = [
     name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "material ui",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "nodejs",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "express",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "redux",
-          color: "pink-text-gradient",
-        },
-      ],
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material ui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
     image: tripguide,
     source_code_link: "https://github.com/",
   },
@@ -447,36 +486,36 @@ const projects = [
     name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "material ui",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "nodejs",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "express",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "redux",
-          color: "pink-text-gradient",
-        },
-      ],
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material ui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
     image: tripguide,
     source_code_link: "https://github.com/",
   },
