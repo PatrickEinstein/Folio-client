@@ -32,7 +32,6 @@ import {
   mernadmin,
   expadmindash,
   erpclient,
-  retropay,
 } from "../assets";
 
 export const navLinks = [
@@ -294,7 +293,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: retropay,
+    image: retropay   ,
     source_code_link: "https://github.com/PatrickEinstein",
   },
   {
